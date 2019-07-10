@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="default">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+</html>
+<body>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-数学1800题总结" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/07/08/数学1800题总结/" class="article-date">
+  <time datetime="2019-07-08T13:55:06.000Z" itemprop="datePublished">2019-07-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/07/08/数学1800题总结/">数学1800题总结</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="基础篇（高数）"><a href="#基础篇（高数）" class="headerlink" title="基础篇（高数）"></a>基础篇（高数）</h1><h2 id="第一章：函数、极限、连续"><a href="#第一章：函数、极限、连续" class="headerlink" title="第一章：函数、极限、连续"></a>第一章：函数、极限、连续</h2><p>①.<script type="math/tex">f(x)= e^{lnf(x)}</script> <strong><em>非最优先，先考虑③</em></strong></p>
+<p>②.洛必达法则</p>
+<p>③.<script type="math/tex">f(x)^y=[1+(f(x)-1)]^{\frac{1}{f(x)-1}*(f(x)-1)*y}\rightarrow e^{y*(f(x)-1)}</script> <strong><em>需保证<script type="math/tex">f(x)\Rightarrow 1</script>,此公式为两个重要极限之一，不能局部使用，会破坏极限的同时性</em></strong></p>
+<p>④.<script type="math/tex">\sqrt{f(x)}-\sqrt{g(x)}={f(x)-g(x)\over\sqrt{f(x)}+\sqrt{g(x)}}</script></p>
+<p>⑤.夹逼准则，<strong><em>确定上下界时，要保证式子中无穷阶数最大的量不变，对其余变量做调整</em></strong><br>平方数列求和：<script type="math/tex">1^2+2^2+3^2+\cdots+n^2=\frac{n*(n+1)*(2n+1)}{6}</script><br>⑥.<script type="math/tex">(1+f(x))^a-1\sim af(x)</script></p>
+<p>⑦.换元</p>
+<p>⑧.泰勒Talyor展开，<strong><em>无穷阶数较高的时候考虑；如果式子中的复杂项与x多项式的加减乘除运算也可以使用，便于直接化简</em></strong></p>
+<p>⑨.积分和式：<script type="math/tex">\lim_{n \to\infty}\frac{1}{n}\sum_{i=0}^{n-1}f({i\over n})=\lim_{n \to\infty}\frac{1}{n}\sum_{i=1}^{n}f({i\over n})=\int_0^1 f(x)dx</script></p>
+<p>⑩.微分中值定理：<script type="math/tex">f(a)-f(b)=f'(\xi)(b-a)</script>,<strong><em>当式子中出现包含x与x+1的两项相减时，需要考虑使用</em></strong></p>
+<p>⑪.数学归纳法：<strong><em>目测临界值；证明单调性；证明n+1项也在临界范围内</em></strong></p>
+<p>⑫.额外增加无穷项，补齐复杂项，形成可以进行等价替换的形式，或拆分成两项分别化简。</p>
+<p>上述12种方法与几种等价无穷小结合使用，可完成求极限题型</p>
+<h2 id="第二章：导数与微分"><a href="#第二章：导数与微分" class="headerlink" title="第二章：导数与微分"></a>第二章：导数与微分</h2><ul>
+<li>导数的定义式：<script type="math/tex">f'(x_0)=\lim_{\Delta x\to 0}{\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}}</script>,可变为<script type="math/tex">\lim_{u\to 0}{\frac{f(x_0+u)-f(x_0)}{u}}</script>;  <script type="math/tex; mode=display">f'(x_0)=\lim_{x\to x_0}{\frac{f(x)-f(x_0)}{x-x_0}}$$,当$$x_0=0$$时,$$f'(0)=\lim_{x\to 0}{\frac{f(x)-f(0)}{x}}</script></li>
+<li><script type="math/tex">\Delta y-dy=\frac{1}{2}f''(\xi)(\Delta x)^2</script>,其中<script type="math/tex">dx,\Delta</script>代表横坐标-x的变化（增减）值,<script type="math/tex">\Delta y</script>代表纵坐标-y函数的变化（增减）值,<script type="math/tex">dy</script>代表所取点处的切线函数-<script type="math/tex">y'(x)</script>的变化（增减）值</li>
+<li>连续函数取绝对值后函数仍保持连续性，可导函数取绝对值后不一定保持可导性。例：<script type="math/tex">y=|x|</script></li>
+</ul>
+<h2 id="第三章：中值定理与一元函数微分学的应用"><a href="#第三章：中值定理与一元函数微分学的应用" class="headerlink" title="第三章：中值定理与一元函数微分学的应用"></a>第三章：中值定理与一元函数微分学的应用</h2><h2 id="第四章：不定积分"><a href="#第四章：不定积分" class="headerlink" title="第四章：不定积分"></a>第四章：不定积分</h2><h2 id="第五章：定积分"><a href="#第五章：定积分" class="headerlink" title="第五章：定积分"></a>第五章：定积分</h2><h2 id="第六章：多元函数微分学"><a href="#第六章：多元函数微分学" class="headerlink" title="第六章：多元函数微分学"></a>第六章：多元函数微分学</h2><h2 id="第七章：重积分"><a href="#第七章：重积分" class="headerlink" title="第七章：重积分"></a>第七章：重积分</h2><h2 id="第八章：微分方程"><a href="#第八章：微分方程" class="headerlink" title="第八章：微分方程"></a>第八章：微分方程</h2>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/07/08/数学1800题总结/" data-id="cjxwhrypn0001nsb1q7owkrep" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/07/07/hello-world/" class="article-date">
+  <time datetime="2019-07-07T10:51:08.576Z" itemprop="datePublished">2019-07-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/07/07/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/07/07/hello-world/" data-id="cjxwhrypj0000nsb1ke2j4e5d" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">July 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/07/08/数学1800题总结/">数学1800题总结</a>
+          </li>
+        
+          <li>
+            <a href="/2019/07/07/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>
